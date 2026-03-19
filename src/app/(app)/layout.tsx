@@ -3,8 +3,8 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import Shell from "@/components/Shell";
 
 export const metadata = {
-  title: "El Gnomo",
-  description: "Sistema de gestión e-commerce",
+  title: "LedgerFlow",
+  description: "E-commerce accounting & inventory management",
 };
 
 export default function RootLayout({

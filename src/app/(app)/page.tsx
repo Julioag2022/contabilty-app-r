@@ -224,7 +224,7 @@ export default function DashboardPage() {
     const label = dateFrom === dateTo ? dateFrom : `${dateFrom} — ${dateTo}`;
 
     doc.setFontSize(18); doc.setTextColor(10, 10, 10);
-    doc.text("El Gnomo", 14, 18);
+    doc.text("LedgerFlow", 14, 18);
     doc.setFontSize(12); doc.setTextColor(0, 0, 0);
     doc.text(`Resumen financiero: ${label}`, 14, 26);
     doc.setFontSize(9); doc.setTextColor(120, 120, 120);
@@ -278,7 +278,7 @@ export default function DashboardPage() {
       margin: { left: 14 },
     });
     const slug = rangeLabel.replace(/\s+/g, "-");
-    doc.save(`ElGnomo-${slug}.pdf`);
+    doc.save(`LedgerFlow-${slug}.pdf`);
   }
 
   /* ── UI ── */

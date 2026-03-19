@@ -17,7 +17,7 @@ export default function AppHeader() {
   return (
     <header className="flex items-center justify-between px-4 py-3 border-b border-[rgb(var(--border))] bg-[rgb(var(--card))] shrink-0 z-20">
       <Link href="/" className="font-bold text-base tracking-tight">
-        El Gnomo
+        LedgerFlow
       </Link>
 
       <button
